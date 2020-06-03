@@ -59,7 +59,8 @@ func main() {
 		}
 
 	}
-	fmt.Println("Word:", word, "guessed in", attempts, "attempts")
+	fmt.Print("Word ", "'", word, "'")
+	fmt.Println(" guessed in", attempts, "attempts")
 }
 
 func choseRandomWord(list []string) string {
